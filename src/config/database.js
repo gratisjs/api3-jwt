@@ -4,7 +4,7 @@ const dbConfig = {
     host: process.env.DB_HOST,           // Variable de entorno de Render
     user: process.env.DB_USER,          // Variable de entorno de Render
     password: process.env.DB_PASSWORD,  // Variable de entorno de Render
-    database: process.env.DB_DATABASE,    // Variable de entorno de Render
+    database: process.env.DB_NAME,    // Variable de entorno de Render
     port: process.env.DB_PORT          // Variable de entorno de Render
 };
 
